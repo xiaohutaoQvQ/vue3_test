@@ -1,4 +1,4 @@
-# 第一阶段：构建应用--
+# 第一阶段：构建应用
 FROM node:18-alpine AS build-stage
 WORKDIR /app
 COPY package*.json ./
